@@ -30,8 +30,7 @@ Alternatively, I use and recommend [Anaconda](https://store.continuum.io/), whic
 Once you have pandas and IPython, you can get going!
 
 ```
-git clone
-https://github.com/jvns/pandas-cookbook.git
+git clone https://github.com/jvns/pandas-cookbook.git
 cd pandas-cookbook/cookbook
 ipython notebook --pylab inline
 ```
