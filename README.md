@@ -7,8 +7,8 @@ This is an alpha cookbook! Chapters will be added here as I, you know, write the
 
 It comes with batteries (data) included, so you can try out all the examples right away.
 
-Chapters
-========
+Table of Contents
+=================
 
 [Chapter 1: Reading from a CSV](http://nbviewer.ipython.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%201%20-%20Reading%20from%20a%20CSV.ipynb)
 
