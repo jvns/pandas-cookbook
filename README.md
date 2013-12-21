@@ -3,7 +3,7 @@ pandas-cookbook
 
 Recipes for using Python's pandas library.
 
-This is an alpha cookbook! Chapters will be added here as. Let me know if you have suggestions, or if there are bugs
+This is an alpha cookbook! Chapters will be added here as I, you know, write them. Let me know if you have suggestions, or if there are bugs.
 
 It comes with batteries (data) included, so you can try out all the examples right away.
 
