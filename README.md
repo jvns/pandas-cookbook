@@ -1,7 +1,9 @@
 pandas-cookbook
 ===============
 
-Recipes for using Python's pandas library.
+Hello!
+
+The goal of this cookbook is to give you handholds for using [pandas](http://pandas.pydata.org/), Wes McKinney's fantastic library for data analysis in Python. It explains how to use pandas with practical examples and real-world data.
 
 This is an alpha cookbook! Chapters will be added here as I, you know, write them. Let me know if you have suggestions, or if there are bugs.
 
