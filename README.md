@@ -59,7 +59,5 @@ Happy pandas!
 TODO
 ====
 
-* Cleaning up messy data
 * Joining dataframes
 * Using stack/unstack
-* Resampling
