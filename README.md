@@ -51,3 +51,12 @@ ipython notebook --pylab inline
 A tab should open up in your browser at `http://localhost:8888`
 
 Happy pandas!
+
+
+TODO
+====
+
+* Cleaning up messy data
+* Joining dataframes
+* Using stack/unstack
+* Resampling
