@@ -18,7 +18,8 @@ I'm working with 3 datasets right now
 * How many people were on Montréal's bike paths in 2012
 * Montreal's weather for 2012, hourly
 
-Let me know if you have suggestions, or about bugs you find.
+Let me know if you have suggestions, about bugs you find, and when 
+things are confusing. This is very alpha.
 
 It comes with batteries (data) included, so you can try out all the
 examples right away.
