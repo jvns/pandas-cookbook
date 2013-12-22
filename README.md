@@ -1,15 +1,24 @@
-pandas-cookbook
+Pandas cookbook
 ===============
 
-Hello!
+[pandas](http://pandas.pydata.org/) is a Python library for doing 
+data analysis. It's really fast and lets you do exploratory work 
+incredibly quickly.
 
-The goal of this cookbook is to give you handholds for using
-[pandas](http://pandas.pydata.org/), Wes McKinney's fantastic library
-for data analysis in Python. It explains how to use pandas with
-practical examples and real-world data.
+The goal of this cookbook is to give you some concrete examples for 
+getting started with pandas. The [docs](http://pandas.pydata.org/pandas-docs/stable/)
+are really comprehensive. However, I've often had people 
+tell me that they have some trouble getting started, so these are
+examples with real-world data, and all the bugs and weirdness
+that that entails.
 
-This is an alpha cookbook! Chapters will be added here as I, you know,
-write them. Let me know if you have suggestions, or if there are bugs.
+I'm working with 3 datasets right now
+
+* 311 calls in New York
+* How many people were on Montréal's bike paths in 2012
+* Montreal's weather for 2012, hourly
+
+Let me know if you have suggestions, or about bugs you find.
 
 It comes with batteries (data) included, so you can try out all the
 examples right away.
