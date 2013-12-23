@@ -18,11 +18,9 @@ I'm working with 3 datasets right now
 * How many people were on Montréal's bike paths in 2012
 * Montreal's weather for 2012, hourly
 
-Let me know if you have suggestions, about bugs you find, and when 
-things are confusing. This is very alpha.
-
 It comes with batteries (data) included, so you can try out all the
 examples right away.
+
 
 Table of Contents
 =================
@@ -35,8 +33,7 @@ Table of Contents
 * [Chapter 6: String operations! Which month was the snowiest?](http://nbviewer.ipython.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%206%20-%20String%20operations%21%20Which%20month%20was%20the%20snowiest%3F.ipynb)
 * [Chapter 7: Cleaning up messy data](http://nbviewer.ipython.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%207%20-%20Cleaning%20up%20messy%20data.ipynb)
 * [Chapter 8: Parsing Unix timestamps](http://nbviewer.ipython.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%208%20-%20How%20to%20deal%20with%20timestamps.ipynb)
-
-
+* Chapter 9: ???
 
 Installation
 ============
@@ -66,9 +63,23 @@ A tab should open up in your browser at `http://localhost:8888`
 
 Happy pandas!
 
+Send me email!
+==============
+
+Here's how this works: I just started writing this recently. If you find 
+this useful, but kind of incomplete and want it to be better, send me 
+email with words in it about what you do not like or would like to see. 
+I will reply to your email!
+
+If you have interesting openly-available data, and a question you want 
+answered with it, and want to know if pandas could help you, you can send 
+it to me! It could be like a fun advice column for pandas problems. Who
+knows. I don't know. Let me know!
+
 
 TODO
 ====
 
 * Joining dataframes
 * Using stack/unstack
+* ???
