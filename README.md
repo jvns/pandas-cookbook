@@ -77,15 +77,7 @@ Happy pandas!
 Send me email!
 ==============
 
-Here's how this works: I just started writing this recently. If you find 
-this useful, but kind of incomplete and want it to be better, send me 
-email with words in it about what you do not like or would like to see. 
-I will reply to your email!
-
-If you have interesting openly-available data, and a question you want 
-answered with it, and want to know if pandas could help you, you can send 
-it to me! It could be like a fun advice column for pandas problems. Who
-knows. I don't know. Let me know!
+Here's how this works: This is a prototype, and I haven't decided if it would be useful to continue with it yet. If you find it useful, send me email! If there's something you'd like to see, send me email!
 
 
 TODO
