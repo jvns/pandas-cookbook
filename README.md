@@ -41,16 +41,17 @@ Table of Contents
 * [Chapter 6: String operations! Which month was the snowiest?](http://nbviewer.ipython.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%206%20-%20String%20operations%21%20Which%20month%20was%20the%20snowiest%3F.ipynb)
   <br> Strings with pandas are great. It has all these vectorized string operations and they're the best. We will turn a bunch of strings containing "Snow" into vectors of numbers in a trice.
 * [Chapter 7: Cleaning up messy data](http://nbviewer.ipython.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%207%20-%20Cleaning%20up%20messy%20data.ipynb)
-  <br> Cleaning up messy data is never a joy, but with pandas it's easier <3
+  <br> Cleaning up messy data is never a joy, but with pandas it's easier &lt;3
 * [Chapter 8: Parsing Unix timestamps](http://nbviewer.ipython.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%208%20-%20How%20to%20deal%20with%20timestamps.ipynb)
   <br> This is basically a quick trick that took me 2 days to figure out.
-* Chapter 9: ???
+* Chapter 9 - Loading data from SQL databases
+  <br> How to load data from an SQL database into Pandas, with examples using SQLite3, PostgreSQL, and MySQL.
 
 Installation
 ============
 
-You'll need an up-to-date version of IPython Notebook (>= 1.0) and
-pandas (>=0.12) for this to work properly
+You'll need an up-to-date version of IPython Notebook (&gt;= 1.0) and
+pandas (&gt;=0.12) for this to work properly
 
 You can get these using `pip`:
 
