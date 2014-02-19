@@ -1,6 +1,6 @@
 ##Chapter 2
 * Intro
-    * Getting an error:
+    * After defining `complaints` I'm getting an error:
 
     ```
     /usr/local/Cellar/python/2.7.6/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pandas/io/parsers.py:1070: DtypeWarning: Columns (8) have mixed types. Specify dtype option on import or set low_memory=False.
