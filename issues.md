@@ -11,3 +11,4 @@ data = self._reader.read(nrows)
 Formatting of temperature headers is incorrect when I run the notebook:
 Should be °C whereas mine reads Â°C
 
+4. Chapter 7 - zips[is_far] included NaNs as written... .fillna() wasn't working because there were no NaNs in is_close (is_close is a boolean!)
