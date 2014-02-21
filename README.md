@@ -68,7 +68,7 @@ Once you have pandas and IPython, you can get going!
 ```
 git clone https://github.com/jvns/pandas-cookbook.git
 cd pandas-cookbook/cookbook
-ipython notebook --pylab inline
+ipython notebook
 ```
 
 A tab should open up in your browser at `http://localhost:8888`
