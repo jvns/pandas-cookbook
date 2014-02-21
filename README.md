@@ -21,7 +21,6 @@ I'm working with 3 datasets right now
 It comes with batteries (data) included, so you can try out all the
 examples right away.
 
-
 Table of Contents
 =================
 
@@ -47,21 +46,22 @@ Table of Contents
 * [Chapter 9 - Loading data from SQL databases](http://nbviewer.ipython.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%209%20-%20Loading%20data%20from%20SQL%20databases.ipynb)
   <br> How to load data from an SQL database into Pandas, with examples using SQLite3, PostgreSQL, and MySQL.
 
-Installation
-============
+How to use this cookbook
+========================
 
 You'll need an up-to-date version of IPython Notebook (&gt;= 1.0) and
-pandas (&gt;=0.12) for this to work properly
+pandas (&gt;=0.13) for this to work properly
 
 You can get these using `pip`:
 
 ```
-pip install ipython pandas numpy
+pip install ipython pandas numpy tornado pyzmq
 ```
 
-Alternatively, I use and recommend
-[Anaconda](https://store.continuum.io/), which will give you everything
-you need. It's free and open source.
+This can be difficult to get set up and require you to compile 
+a whole bunch of things. I instead use and recommend
+[Anaconda](https://store.continuum.io/), which is a Python distribution which
+will give you everything you need. It's free and open source.
 
 Once you have pandas and IPython, you can get going!
 
