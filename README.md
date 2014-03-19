@@ -55,7 +55,7 @@ pandas (&gt;=0.13) for this to work properly
 You can get these using `pip`:
 
 ```
-pip install ipython pandas numpy tornado pyzmq jinja2
+pip install ipython pandas numpy tornado pyzmq jinja2 matplotlib
 ```
 
 This can be difficult to get set up and require you to compile 
