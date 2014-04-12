@@ -75,10 +75,12 @@ A tab should open up in your browser at `http://localhost:8888`
 
 Happy pandas!
 
-Send me email!
-==============
+Contribute!
+===========
 
-Here's how this works: This is a prototype, and I haven't decided if it would be useful to continue with it yet. If you find it useful, send me email! If there's something you'd like to see, send me email!
+If you see something wrong, or there's something you'd like to learn that I haven't 
+explained here, or there's something you know about that you would like to share, 
+create an issue! Send me email! Send a pull request!
 
 
 TODO
