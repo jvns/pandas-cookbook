@@ -1,13 +1,13 @@
 Pandas cookbook
 ===============
 
-[pandas](http://pandas.pydata.org/) is a Python library for doing 
-data analysis. It's really fast and lets you do exploratory work 
+[pandas](http://pandas.pydata.org/) is a Python library for doing
+data analysis. It's really fast and lets you do exploratory work
 incredibly quickly.
 
-The goal of this cookbook is to give you some concrete examples for 
+The goal of this cookbook is to give you some concrete examples for
 getting started with pandas. The [docs](http://pandas.pydata.org/pandas-docs/stable/)
-are really comprehensive. However, I've often had people 
+are really comprehensive. However, I've often had people
 tell me that they have some trouble getting started, so these are
 examples with real-world data, and all the bugs and weirdness
 that that entails.
@@ -49,7 +49,7 @@ Table of Contents
 How to use this cookbook
 ========================
 
-You'll need an up-to-date version of IPython Notebook (&gt;= 1.0) and
+You'll need an up-to-date version of IPython Notebook (&gt;= 2.4) and
 pandas (&gt;=0.13) for this to work properly
 
 You can get these using `pip`:
@@ -58,7 +58,7 @@ You can get these using `pip`:
 pip install ipython pandas numpy tornado pyzmq jinja2 matplotlib
 ```
 
-This can be difficult to get set up and require you to compile 
+This can be difficult to get set up and require you to compile
 a whole bunch of things. I instead use and recommend
 [Anaconda](https://store.continuum.io/), which is a Python distribution which
 will give you everything you need. It's free and open source.
@@ -78,8 +78,8 @@ Happy pandas!
 Contribute!
 ===========
 
-If you see something wrong, or there's something you'd like to learn that I haven't 
-explained here, or there's something you know about that you would like to share, 
+If you see something wrong, or there's something you'd like to learn that I haven't
+explained here, or there's something you know about that you would like to share,
 create an issue! Send me email! Send a pull request!
 
 
