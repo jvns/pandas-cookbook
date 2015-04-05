@@ -49,7 +49,7 @@ Table of Contents
 How to use this cookbook
 ========================
 
-You'll need an up-to-date version of IPython Notebook (&gt;= 2.4) and
+You'll need an up-to-date version of IPython Notebook (&gt;= 3.0) and
 pandas (&gt;=0.13) for this to work properly
 
 You can get these using `pip`:
