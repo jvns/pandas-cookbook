@@ -75,6 +75,28 @@ A tab should open up in your browser at `http://localhost:8888`
 
 Happy pandas!
 
+Running the cookbook inside Docker container.
+===============================================================
+This repository contains Dockerfile and can be build into a docker container.
+To build the container run following command from inside of the repository directory:
+```
+docker build -t jvns/pandas-cookbook .
+```
+run the container:
+```
+docker run -d -p 8888:8888 -e "PASSWORD=MakeAPassword" <IMAGE ID>
+```
+you can find out about the id of the image, by checking
+```
+docker images
+```
+
+After starting the container, you can access ipython notebook with the cookbook
+on port 8888. Remember to use https and authenticate with `MakeAPassword`.
+```
+https://<docker ip>:8888
+```
+
 Contribute!
 ===========
 
