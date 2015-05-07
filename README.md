@@ -10,7 +10,7 @@ getting started with pandas. The [docs](http://pandas.pydata.org/pandas-docs/sta
 are really comprehensive. However, I've often had people
 tell me that they have some trouble getting started, so these are
 examples with real-world data, and all the bugs and weirdness
-that that entails.
+that entails.
 
 I'm working with 3 datasets right now
 
