@@ -50,7 +50,7 @@ How to use this cookbook
 ========================
 
 You'll need an up-to-date version of IPython Notebook (&gt;= 3.0) and
-pandas (&gt;=0.13) for this to work properly
+pandas (&gt;=0.13) for this to work properly. It's set up to work with Python 2.7.
 
 You can get these using `pip`:
 
