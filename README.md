@@ -1,6 +1,8 @@
 Pandas cookbook
 ===============
 
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/hydrosquall/pandas-cookbook/feature-deploy-to-binder)
+
 [pandas](http://pandas.pydata.org/) is a Python library for doing
 data analysis. It's really fast and lets you do exploratory work
 incredibly quickly.
@@ -52,10 +54,10 @@ How to use this cookbook
 You'll need an up-to-date version of IPython Notebook (&gt;= 3.0) and
 pandas (&gt;=0.13) for this to work properly. It's set up to work with Python 2.7.
 
-You can get these using `pip`:
+You can get these using `pip` (you may want to do this inside a virtual environment to avoid conflicting with your other libraries).
 
-```
-pip install ipython pandas numpy tornado pyzmq jinja2 matplotlib
+```bash
+  pip install -r requirements.txt
 ```
 
 This can be difficult to get set up and require you to compile
@@ -65,7 +67,7 @@ will give you everything you need. It's free and open source.
 
 Once you have pandas and IPython, you can get going!
 
-```
+```bash
 git clone https://github.com/jvns/pandas-cookbook.git
 cd pandas-cookbook/cookbook
 ipython notebook
@@ -77,10 +79,10 @@ Happy pandas!
 
 Running the cookbook inside Docker container.
 ===============================================================
-This repository contains Dockerfile and can be build into a docker container.
+This repository contains Dockerfile and can be built into a docker container.
 To build the container run following command from inside of the repository directory:
 ```
-docker build -t jvns/pandas-cookbook .
+docker build -t jvns/pandas-cookbook -f Dockerfile-Local .
 ```
 run the container:
 ```
@@ -96,6 +98,9 @@ on port 8888. Remember to use https and authenticate with `MakeAPassword`.
 ```
 https://<docker ip>:8888
 ```
+
+Alternately, if you just want to try out this notebooks in a cloud environment, you can do so with binder by going to this [link](https://mybinder.org/v2/gh/hydrosquall/pandas-cookbook/feature-deploy-to-binder).
+
 
 Contribute!
 ===========
