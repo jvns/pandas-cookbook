@@ -1,7 +1,7 @@
 Pandas cookbook
 ===============
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/hydrosquall/pandas-cookbook/feature-deploy-to-binder)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jvns/pandas-cookbook/master)
 
 [pandas](http://pandas.pydata.org/) is a Python library for doing
 data analysis. It's really fast and lets you do exploratory work
@@ -51,7 +51,10 @@ Table of Contents
 How to use this cookbook
 ========================
 
-You'll need an up-to-date version of IPython Notebook (&gt;= 3.0) and
+The easiest way is to try it out instantly online using Binder's awesome service. **[Start by clicking here](https://mybinder.org/v2/gh/jvns/pandas-cookbook/master)**, then click on "cookbook", and you'll be off to the races! It will let you run all the code interactively without having to install anything on your computer.
+
+To install it locally , you'll need an up-to-date version of IPython Notebook (&gt;= 3.0) and
+n your computer
 pandas (&gt;=0.13) for this to work properly. It's set up to work with Python 2.7.
 
 You can get these using `pip` (you may want to do this inside a virtual environment to avoid conflicting with your other libraries).
@@ -98,8 +101,6 @@ on port 8888. Remember to use https and authenticate with `MakeAPassword`.
 ```
 https://<docker ip>:8888
 ```
-
-Alternately, if you just want to try out this notebooks in a cloud environment, you can do so with binder by going to this [link](https://mybinder.org/v2/gh/hydrosquall/pandas-cookbook/feature-deploy-to-binder).
 
 
 Contribute!
