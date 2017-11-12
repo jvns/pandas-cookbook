@@ -51,7 +51,7 @@ Table of Contents
 How to use this cookbook
 ========================
 
-The easiest way is to try it out instantly online using Binder's awesome service. **[Start by clicking here](https://mybinder.org/v2/gh/jvns/pandas-cookbook/master)**, then click on "cookbook", and you'll be off to the races! It will let you run all the code interactively without having to install anything on your computer.
+The easiest way is to try it out instantly online using Binder's awesome service. **[Start by clicking here](https://mybinder.org/v2/gh/jvns/pandas-cookbook/master)**, wait for it to launch, then click on "cookbook", and you'll be off to the races! It will let you run all the code interactively without having to install anything on your computer.
 
 To install it locally , you'll need an up-to-date version of IPython Notebook (&gt;= 3.0) and
 n your computer
