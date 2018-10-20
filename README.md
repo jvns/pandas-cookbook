@@ -53,14 +53,18 @@ How to use this cookbook
 
 The easiest way is to try it out instantly online using Binder's awesome service. **[Start by clicking here](https://mybinder.org/v2/gh/jvns/pandas-cookbook/master)**, wait for it to launch, then click on "cookbook", and you'll be off to the races! It will let you run all the code interactively without having to install anything on your computer.
 
-To install it locally , you'll need an up-to-date version of IPython Notebook (&gt;= 3.0) and
-n your computer
-pandas (&gt;=0.13) for this to work properly. It's set up to work with Python 2.7.
+To install it locally , you'll need Python 3, an up-to-date version of IPython Notebook, and other requirements described on `requirements.txt` for this to work properly.
 
-You can get these using `pip` (you may want to do this inside a virtual environment to avoid conflicting with your other libraries).
+You can get these using `pip`:
 
 ```bash
   pip install -r requirements.txt
+```
+
+Or, to setup inside a virtual environment to avoid conflicting with your other libraries
+```bash
+  pip install pipenv
+  pipenv install -r requirements.txt
 ```
 
 This can be difficult to get set up and require you to compile
