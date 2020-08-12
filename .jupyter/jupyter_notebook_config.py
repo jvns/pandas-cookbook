@@ -1,1 +1,1 @@
-c.MappingKernelManager.default_kernel_name = 'python2'
+c.MappingKernelManager.default_kernel_name = 'python3'
