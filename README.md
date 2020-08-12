@@ -14,7 +14,7 @@ tell me that they have some trouble getting started, so these are
 examples with real-world data, and all the bugs and weirdness
 that entails.
 
-I'm working with 3 datasets right now
+It uses 3 datasets:
 
 * 311 calls in New York
 * How many people were on Montréal's bike paths in 2012
@@ -101,22 +101,6 @@ on port 8888. Remember to use https and authenticate with `MakeAPassword`.
 ```
 https://<docker ip>:8888
 ```
-
-
-Contribute!
-===========
-
-If you see something wrong, or there's something you'd like to learn that I haven't
-explained here, or there's something you know about that you would like to share,
-create an issue! Send me email! Send a pull request!
-
-
-TODO
-====
-
-* Joining dataframes
-* Using stack/unstack
-* ???
 
 
 License
