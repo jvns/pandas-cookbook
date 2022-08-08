@@ -55,7 +55,7 @@ The easiest way is to try it out instantly online using Binder's awesome service
 
 To install it locally , you'll need an up-to-date version of IPython Notebook (&gt;= 3.0) and
 n your computer
-pandas (&gt;=0.13) for this to work properly. It's set up to work with Python 2.7.
+pandas (&gt;=0.13) for this to work properly. It's set up to work with Python 3.7.
 
 You can get these using `pip` (you may want to do this inside a virtual environment to avoid conflicting with your other libraries).
 
