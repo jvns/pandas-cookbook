@@ -27,8 +27,8 @@ Table of Contents
 =================
 
 
-* [A quick tour of the IPython Notebook](http://nbviewer.jupyter.org/github/jvns/pandas-cookbook/blob/master/cookbook/A%20quick%20tour%20of%20IPython%20Notebook.ipynb)
-  <br> Shows off IPython's awesome tab completion and magic functions.
+* [A quick tour of the Jupyter Notebook](http://nbviewer.jupyter.org/github/jvns/pandas-cookbook/blob/master/cookbook/A%20quick%20tour%20of%20%20Notebook.ipynb)
+  <br> Shows off Jupyter's awesome tab completion and magic functions.
 * [Chapter 1: Reading from a CSV](http://nbviewer.jupyter.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%201%20-%20Reading%20from%20a%20CSV.ipynb)
   <br> Reading your data into pandas is pretty much the easiest thing. Even when the encoding is wrong!
 * [Chapter 2: Selecting data & finding the most common complaint type](http://nbviewer.jupyter.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%202%20-%20Selecting%20data%20&%20finding%20the%20most%20common%20complaint%20type.ipynb)
@@ -53,9 +53,7 @@ How to use this cookbook
 
 The easiest way is to try it out instantly online using Binder's awesome service. **[Start by clicking here](https://mybinder.org/v2/gh/jvns/pandas-cookbook/master)**, wait for it to launch, then click on "cookbook", and you'll be off to the races! It will let you run all the code interactively without having to install anything on your computer.
 
-To install it locally , you'll need an up-to-date version of IPython Notebook (&gt;= 3.0) and
-n your computer
-pandas (&gt;=0.13) for this to work properly. It's set up to work with Python 2.7.
+To install it locally, you'll need Jupyter notebook and pandas on your computer.
 
 You can get these using `pip` (you may want to do this inside a virtual environment to avoid conflicting with your other libraries).
 
@@ -68,21 +66,21 @@ a whole bunch of things. I instead use and recommend
 [Anaconda](https://store.continuum.io/), which is a Python distribution which
 will give you everything you need. It's free and open source.
 
-Once you have pandas and IPython, you can get going!
+Once you have pandas and Jupyter, you can get going!
 
 ```bash
 git clone https://github.com/jvns/pandas-cookbook.git
 cd pandas-cookbook/cookbook
-ipython notebook
+jupyter notebook
 ```
 
 A tab should open up in your browser at `http://localhost:8888`
 
 Happy pandas!
 
-Running the cookbook inside Docker container.
+Running the cookbook inside a Docker container.
 ===============================================================
-This repository contains Dockerfile and can be built into a docker container.
+This repository contains a Dockerfile and can be built into a docker container.
 To build the container run following command from inside of the repository directory:
 ```
 docker build -t jvns/pandas-cookbook -f Dockerfile-Local .
@@ -96,12 +94,8 @@ you can find out about the id of the image, by checking
 docker images
 ```
 
-After starting the container, you can access ipython notebook with the cookbook
-on port 8888. Remember to use https and authenticate with `MakeAPassword`.
-```
-https://<docker ip>:8888
-```
-
+After starting the container, you can access the Jupyter notebook with the cookbook
+on port 8888. 
 
 License
 =======

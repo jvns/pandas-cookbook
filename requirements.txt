@@ -1,3 +1,4 @@
 matplotlib==3.7.1
 numpy==1.22.3
 pandas==1.4.2
+jupyter==1.0.0
