@@ -78,6 +78,13 @@ A tab should open up in your browser at `http://localhost:8888`
 
 Happy pandas!
 
+Running Jupyterlite locally
+===========================
+```bash
+#assuming you checked out into ~/code/pandas-cookbook
+cd ~/code/pandas-cookbook/  ; rm -rf _output ;  time jupyter lite build --contents ./cookbook/ && cd _output && python -m http.server
+```
+
 Running the cookbook inside a Docker container.
 ===============================================================
 This repository contains a Dockerfile and can be built into a docker container.
