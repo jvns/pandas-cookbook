@@ -1,7 +1,10 @@
 Pandas cookbook
 ===============
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jvns/pandas-cookbook/master)
+
+Try it with Jupyter Lite
+[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://paddymul.github.io/pandas-cookbook/lab/index.html)
+
 
 [pandas](http://pandas.pydata.org/) is a Python library for doing
 data analysis. It's really fast and lets you do exploratory work
@@ -77,6 +80,13 @@ jupyter notebook
 A tab should open up in your browser at `http://localhost:8888`
 
 Happy pandas!
+
+Running Jupyterlite locally
+===========================
+```bash
+#assuming you checked out into ~/code/pandas-cookbook
+cd ~/code/pandas-cookbook/  ; rm -rf _output ;  time jupyter lite build --contents ./cookbook/ && cd _output && python -m http.server
+```
 
 Running the cookbook inside a Docker container.
 ===============================================================

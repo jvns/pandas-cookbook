@@ -1,0 +1,13 @@
+name: xeus-python-kernel
+channels:
+  - https://repo.mamba.pm/emscripten-forge
+  - conda-forge
+dependencies:
+  - python=3.11
+  - xeus-python
+  - pandas
+  - ipywidgets
+  - pip
+  - pip:
+    - requests
+    - ../../buckaroo/dist/buckaroo-0.7.8-py3-none-any.whl  #relative path to a locally built wheel

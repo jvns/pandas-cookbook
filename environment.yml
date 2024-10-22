@@ -1,0 +1,14 @@
+name: xeus-python-kernel
+channels:
+  - https://repo.mamba.pm/emscripten-forge
+  - conda-forge
+dependencies:
+  - python=3.11
+  - xeus-python
+  - pandas
+  - ipywidgets
+  - matplotlib
+  - pip
+  - pip:
+    - requests
+    - buckaroo
