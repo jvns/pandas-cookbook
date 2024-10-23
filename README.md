@@ -1,10 +1,7 @@
 Pandas cookbook
 ===============
 
-
-Try it with Jupyter Lite
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://paddymul.github.io/pandas-cookbook/lab/index.html)
-
+Try it in your browser with Jupyter Lite: [![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jvns.github.io/pandas-cookbook/lab/index.html)
 
 [pandas](http://pandas.pydata.org/) is a Python library for doing
 data analysis. It's really fast and lets you do exploratory work
@@ -54,39 +51,31 @@ Table of Contents
 How to use this cookbook
 ========================
 
-The easiest way is to try it out instantly online using Binder's awesome service. **[Start by clicking here](https://mybinder.org/v2/gh/jvns/pandas-cookbook/master)**, wait for it to launch, then click on "cookbook", and you'll be off to the races! It will let you run all the code interactively without having to install anything on your computer.
+You can try it out instantly online using [Jupyter Lite](https://jvns.github.io/pandas-cookbook/lab/index.html), which will run Python with WebAssembly in your browser.
 
 To install it locally, you'll need Jupyter notebook and pandas on your computer.
 
 You can get these using `pip` (you may want to do this inside a virtual environment to avoid conflicting with your other libraries).
 
 ```bash
-  pip install -r requirements.txt
-```
-
-This can be difficult to get set up and require you to compile
-a whole bunch of things. I instead use and recommend
-[Anaconda](https://store.continuum.io/), which is a Python distribution which
-will give you everything you need. It's free and open source.
-
-Once you have pandas and Jupyter, you can get going!
-
-```bash
+# Get the repository
 git clone https://github.com/jvns/pandas-cookbook.git
-cd pandas-cookbook/cookbook
+cd pandas-cookbook
+
+# Set up a virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Start jupyter
 jupyter notebook
 ```
 
 A tab should open up in your browser at `http://localhost:8888`
 
 Happy pandas!
-
-Running Jupyterlite locally
-===========================
-```bash
-#assuming you checked out into ~/code/pandas-cookbook
-cd ~/code/pandas-cookbook/  ; rm -rf _output ;  time jupyter lite build --contents ./cookbook/ && cd _output && python -m http.server
-```
 
 Running the cookbook inside a Docker container.
 ===============================================================
